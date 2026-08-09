@@ -8,7 +8,7 @@ const ai = new GoogleGenAI({
 async function main() {
   const response = await ai.models.generateContent({
     model: "gemini-3.5-flash",
-    contents: "Explain what Artificial Intelligence is in simple Marathi",
+    contents: "Explain Angular",
   });
   console.log(response.text);
 }
